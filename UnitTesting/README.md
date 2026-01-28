@@ -7,6 +7,11 @@ The project also includes unit tests written with Mocha and Chai, verifying that
 Demonstrates basic arithmetic operations (add, subtract, multiply, divide) using functions imported from mylib.js.
 Example for Mocha + Chai unit testing.
 
+**mylib.js**
+Including basic arithmetic operations. 
+Throws an error if division by zero.
+Exports arithmetic functions for use in other modules.
+
 **mylib.test.js**
 Unit tests for the mylib.js module.
 Tests basic arithmetic operations (ass, subtract, multiply, divide)
