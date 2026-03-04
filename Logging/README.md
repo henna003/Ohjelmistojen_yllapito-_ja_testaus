@@ -5,11 +5,11 @@ Creating a Node.js application and integrating Winston into it. Purpose is to al
 ## Setup:
 
 Initialize a new Node.js project:
-git init
-npm init -y
+- git init
+- npm init -y
 
 Install the Winston library as dependency:
-npm install --save winston@3.11.0
+- npm install --save winston@3.11.0
 
 logger.js
 -	Creating a logging configuration to use Winston
@@ -22,17 +22,17 @@ Check log files created in the log files: logs/error.log and logs/combined.log
 
 # TASK 2 Creating a tally counter REST API with Express
 
-##Setup:
+## Setup:
 
 Initialize a new Node.js project:
-git init
-npm init -y
+- git init
+- npm init -y
 
 Install the Winston library as dependency:
-npm install --save winston@3.11.0
+- npm install --save winston@3.11.0
 
 Install Express:
-npm install express
+- npm install express
 
 main.js
 -	Creates and configures the Express application
