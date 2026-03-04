@@ -1,0 +1,25 @@
+
+### --------------------------------------
+### Counter API tests
+### Base URL
+@baseUrl = http://localhost:3000
+
+### --------------------------------------
+### Read Counter
+GET {{baseUrl}}/counter-read
+
+### --------------------------------------
+### Increase Counter
+GET {{baseUrl}}/counter-increase
+
+### --------------------------------------
+### Read Counter
+GET {{baseUrl}}/counter-read
+
+### --------------------------------------
+### Reset Counter
+GET {{baseUrl}}/counter-reset
+
+### --------------------------------------
+### Read Counter
+GET {{baseUrl}}/counter-read
