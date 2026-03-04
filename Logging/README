@@ -1,8 +1,8 @@
-# TASK 1  Implement Logging library
+**TASK 1  Implement Logging library**
 
 Creating a Node.js application and integrating Winston into it. Purpose is to allow capturing various events.
 
-# Setup:
+**Setup:**
 
 Initialize a new Node.js project:
 git init
@@ -20,9 +20,9 @@ main.js
 Run the application: node src/main.js
 Check log files created in the log files: logs/error.log and logs/combined.log
 
-# TASK 2 Creating a tally counter REST API with Express
+**TASK 2 Creating a tally counter REST API with Express**
 
-# Setup:
+**Setup:**
 
 Initialize a new Node.js project:
 git init
