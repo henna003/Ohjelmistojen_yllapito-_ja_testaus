@@ -2,7 +2,7 @@
 
 Creating a Node.js application and integrating Winston into it. Purpose is to allow capturing various events.
 
-## Setup:
+## Setup
 
 Initialize a new Node.js project:
 - git init
@@ -10,6 +10,8 @@ Initialize a new Node.js project:
 
 Install the Winston library as dependency:
 - npm install --save winston@3.11.0
+
+## App
 
 logger.js
 -	Creating a logging configuration to use Winston
@@ -22,7 +24,9 @@ Check log files created in the log files: logs/error.log and logs/combined.log
 
 # TASK 2 Creating a tally counter REST API with Express
 
-## Setup:
+Creating a tally counter REST API with Express. It exposes three endpoints to read, increment and reset the counter. All the actions and endpoint accesses are logged using Winston.
+
+## Setup
 
 Initialize a new Node.js project:
 - git init
@@ -33,6 +37,8 @@ Install the Winston library as dependency:
 
 Install Express:
 - npm install express
+
+## App
 
 main.js
 -	Creates and configures the Express application
@@ -53,7 +59,7 @@ counter.js
 -	Logs counter operations ([COUNTER] action value) 
          
 logger.js
--	Created a Logging Configuration in the file logger.js
+-	Creates a Logging Configuration in the file logger.js
 -	Used by all modules (main.js, routes.js, counter.js)
 
 Test can be made throught Postman or Rest Client.
@@ -75,4 +81,4 @@ Rest Client:
 1.	Start the server: node src/main.js
 2.	Open the rest.http file in VS Code (Download extension rest client)
 3.	Choose ”Send request” and the response from the server will be displayed directly in the editor
-4.  Exit CTRL + C
+4.	Exit CTRL + C
