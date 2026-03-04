@@ -11,6 +11,10 @@ Initialize a new Node.js project:
 Install the Winston library as dependency:
 - npm install --save winston@3.11.0
 
+Versions used:
+- node v24.13.0
+- winston 3.11.0
+
 ## App
 
 logger.js
@@ -42,6 +46,11 @@ Install the Winston library as dependency:
 
 Install Express:
 - npm install express
+
+Versions used:
+- node v24.13.0
+- winston 3.11.0
+- express 5.2.1
 
 ## App
 
