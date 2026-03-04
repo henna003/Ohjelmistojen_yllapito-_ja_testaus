@@ -14,13 +14,18 @@ Install the Winston library as dependency:
 ## App
 
 logger.js
--	Creating a logging configuration to use Winston
+- Creating a logging configuration to use Winston
 
 main.js
--	Implementing logging in to application
+- Implementing logging in to application
 
-Run the application: node src/main.js
-Check log files created in the log files: logs/error.log and logs/combined.log
+## Test
+
+Run the application: 
+- node src/main.js
+  
+Check log files created in the log files: 
+- logs/error.log and logs/combined.log
 
 # TASK 2 Creating a tally counter REST API with Express
 
@@ -61,6 +66,8 @@ counter.js
 logger.js
 -	Creates a Logging Configuration in the file logger.js
 -	Used by all modules (main.js, routes.js, counter.js)
+
+## Test
 
 Test can be made throught Postman or Rest Client.
          
