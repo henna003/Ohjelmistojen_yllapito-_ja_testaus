@@ -26,11 +26,11 @@
       "text-summary"
     ],
     "include": [
-      "src/**/*.js"
+      "Deployment/src/**/*.js"
     ],
     "exclude": [
       "test/**",
-      "src/.internal/**"
+      "Deployment//test/**", "Deployment/src/.internal/**"
     ]
   },
   "keywords": []
