@@ -31,7 +31,9 @@ function chunk(array, size = 1) {
 
   while (index < length) {
     result[resIndex] = slice(array, index, (index += size))
+    resIndex++
   }
+
   return result
 }
 
