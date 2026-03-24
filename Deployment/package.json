@@ -30,7 +30,7 @@
     ],
     "exclude": [
       "test/**",
-      "Deployment//test/**", "Deployment/src/.internal/**"
+      "Deployment/test/**", "Deployment/src/.internal/**"
     ]
   },
   "keywords": []
