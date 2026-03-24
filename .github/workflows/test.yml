@@ -21,11 +21,13 @@ jobs:
         run: cd Deployment && npm install
 
       - name: Run tests with coverage
-        run: cd Deployment && npx nyc mocha
+        run: npm run coverage
+        # run: cd Deployment && npx nyc mocha
 
       - name: Send coverage to Coveralls
         uses: coverallsapp/github-action@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          path-to-lcov: Deployment/coverage/lcov.info
+          path-to-lcov: coverage/lcov.info
+          # path-to-lcov: Deployment/coverage/lcov.info
 

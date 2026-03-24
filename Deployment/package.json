@@ -21,6 +21,7 @@
   },
   "nyc": {
     "all": true,
+    "extension": [".js"],
     "reporter": [
       "lcov",
       "text-summary"
