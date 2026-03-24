@@ -10,18 +10,18 @@ jobs:
 
     steps:
       - name: Checkout code
-      - uses: actions/checkout@v5
+        uses: actions/checkout@v5
 
       - name: Setup node
-      - uses: actions/setup-node@v4
+        uses: actions/setup-node@v4
         with:
           node-version: 22
       
-      - name: Installdependencies
-      - run: cd Deployment && npm install
+      - name: Install dependencies
+        run: cd Deployment && npm install
 
       - name: Run tests with coverage
-      - run: cd Deployment && npm run coverage
+        run: cd Deployment && npm run coverage
    
       - name: Send coverage to Coveralls
-      - run: cd Deployment && npm run coveralls
+        run: cd Deployment && npm run coveralls
