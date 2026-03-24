@@ -21,7 +21,7 @@ jobs:
         run: cd Deployment && npm install
 
       - name: Run tests with coverage
-        run: cd Deployment && npm run coverage
-   
+        run: cd Deployment && npx nyc mocha
+        
       - name: Send coverage to Coveralls
         run: cd Deployment && npm run coveralls
