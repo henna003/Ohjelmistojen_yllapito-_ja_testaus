@@ -25,12 +25,13 @@
       "lcov",
       "text-summary"
     ],
-    "include": [
-      "Deployment/src/**/*.js"
-    ],
+    "include":
+      [
+        "src/**/*.js"
+      ],
     "exclude": [
-      "test/**",
-      "Deployment/test/**", "Deployment/src/.internal/**"
+      "/test/**",
+      "src/.internal/**"
     ]
   },
   "keywords": []
