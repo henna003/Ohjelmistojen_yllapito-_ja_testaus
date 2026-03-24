@@ -29,9 +29,16 @@ function chunk(array, size = 1) {
   let resIndex = 0
   const result = new Array(Math.ceil(length / size))
 
-  while (index < length) {
-    result[resIndex] = slice(array, index, (index += size))
-    resIndex++
+  // while (index < length) {
+  //   result[resIndex] = slice(array, index, (index += size))
+  //   resIndex++
+  // }
+
+    while (index < length) {
+      const end = Math.min(index + size, length)
+      result[resIndex] = slice(array, index, end)
+      index += size
+      resIndex++
   }
 
   return result
